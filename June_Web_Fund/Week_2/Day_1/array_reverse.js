@@ -1,7 +1,6 @@
 function reverseArray(arr){
-    arr.reverse()
-    console.log(arr)
-    return(arr)
+    arr.reverse();
+    return(arr);
 };
 
-reverseArray([1,2,3,4,5])
+console.log(reverseArray([1,2,3,4,5]))
