@@ -1,6 +1,6 @@
 function d6() {
     var roll = Math.random();
-    roll = Math.round(roll*6)
+    roll = Math.ceil(roll*6)
     return roll;
 }
     
