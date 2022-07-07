@@ -10,18 +10,14 @@
  * @return {boolean}
  */
 
-var isPalindrome = function(head) {
+var isPalindrome = function(head){
     let values = [];
     let block = head;
-    
-    while(block !== null) {
-        values.push(block.val)
-        block = block.next
-    }
-    
-    for(let i = 0; i < values.length; i++) {
-        if(values[i] !== values[values.length-1-i]) return false
-    }
-    
-    return true
+
+    while(block !== null){
+        values.push(block.val);
+        block = block.next;
+    } for(let i = 0; i < values.length; i++){
+        if(values[i] !== values[values.length-1-i]) return false;
+    } return true;
 };
