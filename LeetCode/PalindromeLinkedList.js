@@ -13,7 +13,6 @@
 var isPalindrome = function(head){
     let values = [];
     let block = head;
-
     while(block !== null){
         values.push(block.val);
         block = block.next;
