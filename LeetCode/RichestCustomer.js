@@ -1,7 +1,7 @@
-/**
- * @param {number[][]} accounts
- * @return {number}
- */
+/*
+@param {number[][]} accounts
+@return {number}
+*/
 
 var maximumWealth = function(accounts){
     let max = 0;

@@ -9,7 +9,7 @@ console.log(y);  //logs "CodingDojo" on the console
 console.log(y_array[3]);  //logs the value in y_array index 3 which is 'awesome!';
 //this prints 0 to 99
 for(var i=0; i<100; i++){
-  console.log(i);
+    console.log(i);
 }
 //loops through 1 to 100 and prints whether the number is odd or even
 for(var j=1; j<=100; j++){
