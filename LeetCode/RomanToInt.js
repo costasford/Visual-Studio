@@ -11,7 +11,6 @@ function roman(num){
 
 function romanToInt(str){
     let r = 0;
-
     for (let i = 0; i < str.length; i++) {
         let n1 = roman(str.charAt(i));
 
@@ -31,4 +30,4 @@ function romanToInt(str){
         }
     }
     return r;
-}
+};
